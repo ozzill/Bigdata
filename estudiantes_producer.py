@@ -4,7 +4,7 @@ from kafka import KafkaProducer
 # Configuración
 BOOTSTRAP = "localhost:9092"
 TOPIC = "estudiantes"
-CSV_PATH = "/tmp/ESTUDIANTES_GRUPOS_ETNICOS_20251027.csv"  # Asegúrate de que e>
+CSV_PATH = "/tmp/ESTUDIANTES_GRUPOS_ETNICOS_20251027.csv"
 
 # Inicializa el producer
 producer = KafkaProducer(
